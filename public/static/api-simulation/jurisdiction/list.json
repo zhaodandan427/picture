@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "title": "A部分组织",
+      "checked": false,
+      "childs": [
+        {
+          "url": "",
+          "name": "张委员",
+          "num": 1233,
+          "checked": false
+        },
+        {
+          "url": "",
+          "name": "李委员",
+          "num": 3458,
+          "checked": false
+        },
+        {
+          "url": "",
+          "name": "王委员",
+          "num": 2900,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "title": "B部分组织",
+      "checked": false,
+      "childs": [
+        {
+          "url": "",
+          "name": "张委员",
+          "num": 1233,
+          "checked": false
+        },
+        {
+          "url": "",
+          "name": "李委员",
+          "num": 3458
+        },
+        {
+          "url": "",
+          "name": "王委员",
+          "num": 2900,
+          "checked": false
+        }
+      ]
+    },
+    {
+      "title": "C部分组织",
+      "checked": false,
+      "childs": [
+        {
+          "url": "",
+          "name": "张委员",
+          "num": 1233,
+          "checked": false
+        },
+        {
+          "url": "",
+          "name": "李委员",
+          "num": 3458,
+          "checked": false
+        },
+        {
+          "url": "",
+          "name": "王委员",
+          "num": 2900,
+          "checked": false
+        }
+      ]
+    }
+  ]
+}

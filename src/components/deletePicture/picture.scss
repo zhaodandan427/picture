@@ -1,0 +1,83 @@
+.content-area{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding:.5rem .6rem;
+  li{
+    flex:1;
+    font-size: .42rem;
+    color:#414042;
+    h3{
+
+     font-size: .42rem;
+     color:#414042;
+     font-weight: bold;
+     margin-top:.5rem
+    }
+    div{
+      margin-left: 1.4rem;
+      margin-top: .2rem;
+      p{
+            width: 8rem;
+            text-align: left;
+            overflow:hidden;/*超出部分隐藏*/
+            text-overflow:ellipsis;/*超出部分显示省略号*/
+            white-space:nowrap;/*规定段落中的文本不进行换行 */
+      }
+      img{
+        width: 9.6rem;
+        height:6.4rem;
+
+        background: url('../../assets/img/morenfengmian.png') no-repeat;
+        background-size:100% 100%;
+        margin-top: .5rem;
+      }
+      .footer-bom{
+        width: 100%;
+        margin-top: .3rem;
+        margin-left:0;
+        font-size: .36rem;
+        position: relative;
+        .comment{
+
+
+          background: url('../../assets/img/comment.png') no-repeat left center;
+          background-size: .45rem;
+          padding-left: 0.5rem;
+        }
+        .fabulous{
+          margin-left: .5rem;
+
+          background: url('../../assets/img/heart.png') no-repeat left center;
+          background-size: .45rem;
+          padding-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+}
+.loading{
+  font-size: .48rem;
+  color:#BCBEC0;
+  margin-top: .5rem;
+  position: relative;
+  i{
+    width: .5rem;
+    height: .5rem;
+    background: url('../../assets/img/loading.gif') no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: absolute;
+    left:40%;
+    top:.1rem;
+  }
+  span{
+    margin-left: .5rem;
+  }
+}
+
+
+//单选框
+

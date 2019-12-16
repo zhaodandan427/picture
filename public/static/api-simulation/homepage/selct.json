@@ -1,0 +1,55 @@
+{
+  "code": 200,
+  "data": {
+    "index": 1,
+    "size": 1,
+    "totalElements": 1,
+    "elements": [
+      {
+        "date": "11月",
+        "photoList": [
+          {
+            "imgUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png",
+            "createTime": "2019-11-11 13:20:30",
+            "creatorName": "白洁",
+            "photoId": 31,
+            "thumbnailUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png"
+          },
+          {
+            "imgUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png",
+            "createTime": "2019-11-11 13:20:30",
+            "creatorName": "白洁",
+            "photoId": 32,
+            "thumbnailUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png"
+          },
+          {
+            "imgUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png",
+            "createTime": "2019-11-11 13:20:30",
+            "creatorName": "白洁",
+            "photoId": 33,
+            "thumbnailUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png"
+          },
+          {
+            "imgUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png",
+            "createTime": "2019-11-11 13:20:30",
+            "creatorName": "白洁",
+            "photoId": 34,
+            "thumbnailUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png"
+          }
+        ]
+      },
+      {
+        "date": "12月",
+        "photoList": [
+          {
+            "imgUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png",
+            "createTime": "2019-11-11 13:20:30",
+            "creatorName": "白洁",
+            "photoId": 31,
+            "thumbnailUrl": "http://localhost:9933/img/23/large/e5dcff14e31a477cb60e2470149a8711.png"
+          }
+        ]
+      }
+    ]
+  }
+}

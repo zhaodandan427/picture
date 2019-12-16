@@ -1,0 +1,117 @@
+.mailList-wrap{
+  width: 100%;
+  .mailList-firstContent{
+    box-sizing: border-box;
+    padding-left: .1rem;
+    padding-top:.4rem;
+    li{
+      margin-top: .3rem;
+      p{
+        width: 10rem;
+        display: flex;
+        i{
+          width: .65rem;
+          height: .65rem;
+          background: url('../../assets/img/down.png') no-repeat left center;
+          background-size:100% 100%;
+          position: absolute;
+          left:0;
+          
+        }
+        span{
+          font-size:.46rem;
+          color:#666;
+          margin-left: .6rem;
+        }
+      }
+        input{
+          margin-right: .5rem;
+          float: right;
+          margin-top: -.6rem;
+          z-index: 99;
+
+         }
+         .e-selfecheckbox{
+          width: .6rem;
+          height:.6rem;
+          background-color:#fff;
+          -webkit-appearance:none;
+          border: 1px solid #BCBEC0;
+          border-radius: 100%;
+          outline: none;
+          cursor: pointer;
+      }
+     .e-selfecheckbox:checked{
+          background: url("../../assets/img/choic.png")no-repeat center;
+          width:.6rem;
+          height: .6rem;
+          background-size: 100% 100%;
+          z-index:200;
+          border: none;
+      }
+      .mailList-secondContent{
+        width: 100%;
+        padding-left:.2rem;
+        overflow-y: scroll;
+        max-height:10rem;
+        li{
+          dl{
+            display: flex;
+            margin-top: .3rem;
+            dd{
+              flex:1;
+              margin-left: .8rem;
+              text-align: left;
+              .userName{
+                width: 2rem;
+                display: inline-block;
+                text-align: left;
+              }
+              .userNum{
+                width: 2rem;
+                display:inline-block;
+                text-align: center;
+              }
+           }
+            dt{
+              // width: 1.5rem;
+              // height: 1.5rem;
+              img{
+                width: 100%;
+                height:100%;
+                border-radius: 100%;
+              }
+            }
+            input{
+              margin-right: .5rem;
+              margin-top: .1rem;
+              border-radius: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.showi{
+  transform: rotateZ(180deg);
+  transition: transform 0.2s;
+
+}
+.hide{
+  transform: rotateZ(360deg);
+  transition: transform 0.2s;
+
+}
+ .slidedowns {
+  transform: scaleY(1);
+  height: auto;
+  transition: height 1s;
+  overflow: auto;
+}
+ .slideups {
+  transform: scaleY(0);
+  height: 0;
+  transition: height 1s;
+  overflow: auto;
+}

@@ -1,0 +1,109 @@
+.jurisdiction-wrap{
+  width: 100%;
+  .jurisdiction-content{
+    flex:1;
+    margin-top: 2rem;
+    font-size: .48rem;
+    color:#414042;
+    text-align: left;
+    .radio-wrap{
+      display: flex;
+      flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+      div:nth-child(1){
+        // border-bottom:1px solid #DEDEDE;
+      }
+      div:nth-child(2){
+        // border-bottom:1px solid #DEDEDE;
+      }
+      
+      div{
+        width: 100%;
+        position: relative;
+        padding: .5rem;
+        input{
+          width: .7rem;
+          height: .7rem;
+          border-radius: 100%;
+          outline: none;
+          background:rgba(255,255,255,1);
+          border:1px solid rgba(222, 222, 222, 1);
+          margin-top: 1rem;
+          margin-left: 0rem;
+          z-index: 2
+        }
+       
+        
+        p{
+          position: absolute;
+          left:2rem;
+          top:0.8rem
+        }
+        .apper{
+          position: absolute;
+          right:1rem;
+          top:1.5rem;
+          color:#2AC52E
+        }
+      }
+    }
+    .choick-list{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      padding-left: 2.3rem;
+      padding-top: 2rem;
+      li{
+        flex:1;
+        height:2.4rem;
+        line-height: 2.4rem;
+        border-bottom: 1px solid #DEDEDE;
+        a{
+          color:#414042
+        }
+      }
+    }
+  }
+}
+.mailList-wrap,.meeting-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  .mailList-content,.meeting-content{
+    overflow-y: scroll;
+    flex:1;
+    margin-top: 2rem;
+   
+  }
+}
+.am-accordion-header{
+  text-align: left;
+}
+.arrow{
+  position: absolute;
+  left:.2rem;
+  top:1rem
+}
+.am-accordion .am-accordion-item .am-accordion-header{
+  padding-left: 1rem !important;
+}
+.am-list-item am-checkbox-item am-list-item-middle{
+  position: absolute !important;
+  left:1rem !important
+}
+.am-list-item {
+  min-height:2rem !important;
+}
+.am-list-thumb{
+  position: absolute;
+  right:1rem;
+  margin-top:-1rem
+}
+.am-checkbox-inner{
+  border:1px solid #414042 !important
+}
+

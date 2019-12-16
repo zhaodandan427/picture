@@ -1,0 +1,31 @@
+.garbageBasket-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  header{
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    height: 1.94rem;
+    line-height: 1.94rem;
+    background: rgba(253,51,52,1);
+    font-size: .52rem;
+    color:#fff;
+    text-align: center;
+    z-index: 99;
+    i{
+      width: 1rem;
+      height: 1rem;
+      background: url('../../assets/img/left.png') no-repeat;
+      background-size: 100% 100%;
+      display: block;
+      position: absolute;
+      left:.6rem;
+      top:.5rem
+    }
+  }
+  .garbageBasket-content{
+    margin-top: 2rem;
+  }
+}

@@ -1,0 +1,19 @@
+.radio-wrap b{
+  width: .7rem;
+  height: .7rem;
+  border:1px solid #ccc;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  left:-1rem;
+  top:.5rem;
+  z-index:12
+
+}
+.active{
+  background: #2AC52E;
+}
+.radio-wrap>div:nth-child(2){
+  margin-top: 2rem;
+  border-top:1px solid #DEDEDE
+}

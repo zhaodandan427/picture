@@ -1,0 +1,16 @@
+.App {
+  background: #fff;
+}
+.sl_up sl_show{
+  display: none;
+}
+.no-data{
+  margin: 0 auto;
+}
+.no-data img{
+  margin-top: 3rem;
+  padding: .5rem;
+}
+.no-data h4{
+  
+}
