@@ -5,7 +5,7 @@
   "dependencies": {
     "antd": "^3.25.1",
     "antd-mobile": "^2.3.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "better-scroll": "^1.15.2",
     "iscroll": "^5.2.0",
     "iscroll-luo": "^1.2.3",
