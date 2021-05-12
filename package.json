@@ -17,7 +17,7 @@
     "react-scripts": "3.2.0",
     "react-wx-images-viewer": "^1.0.6",
     "react-zmage": "^0.8.5",
-    "swiper": "^5.2.1"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
