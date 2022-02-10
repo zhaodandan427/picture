@@ -10,7 +10,7 @@
     "iscroll": "^5.2.0",
     "iscroll-luo": "^1.2.3",
     "jquery": "^3.4.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
